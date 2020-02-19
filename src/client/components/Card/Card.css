@@ -9,7 +9,6 @@
   line-height: 75px;
   font-family: Helvetica;
   overflow: auto;
-  cursor: pointer;
 }
 
 .title-card {
@@ -25,4 +24,5 @@
   border-width: 2px 4px;
   font-size: 40px;
   text-shadow: 3px 3px #000000;
+  cursor: pointer;
 }
