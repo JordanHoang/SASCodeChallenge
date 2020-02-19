@@ -16,7 +16,7 @@ class Card extends React.Component {
 
   renderValueCard() {
     return (
-      <div className="value-card">
+      <div className="value-card" onClick={() => {this.props.renderCluePage(this.props.question)} }>
         ${this.props.question.value}
       </div>
     )

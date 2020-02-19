@@ -11,13 +11,14 @@ class GameBoard extends React.Component {
     return (
       <div className="game-board">
         {this.props.clues.map((category, index) => (
-          <Column
-            {...this.props}
-            key={index}
-            categoryName={category.categoryName}
-            categoryId={category.categoryId}
-            categoryQuestions={category.categoryQuestions}
-          />
+          <div key={index}>
+            <Column
+              {...this.props}
+              categoryName={category.categoryName}
+              categoryId={category.categoryId}
+              categoryQuestions={category.categoryQuestions}
+            />
+          </div>
         ))}
       </div>
     )
