@@ -1,0 +1,28 @@
+.card-container {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px 6px;
+  width: 150px;
+  height: 75px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  font-family: Helvetica;
+  overflow: auto;
+  cursor: pointer;
+}
+
+.title-card {
+  background-color: #060CE9;
+  color: #FFFFFF;
+  border-width: 4px 4px 2px 4px;
+  font-size: 20px;
+}
+
+.value-card {
+  background-color: #060CE9;
+  color: #FFCC00;
+  border-width: 2px 4px;
+  font-size: 40px;
+  text-shadow: 3px 3px #000000;
+}

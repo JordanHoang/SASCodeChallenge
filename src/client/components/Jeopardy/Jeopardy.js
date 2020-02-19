@@ -2,6 +2,7 @@ import React from 'react';
 import GameBoard from '../GameBoard/GameBoard';
 import CluePage from '../CluePage/CluePage';
 import { clues } from '../../../../mock-data.js';
+import './Jeopardy.css';
 
 class Jeopardy extends React.Component {
   constructor() {
@@ -30,8 +31,8 @@ class Jeopardy extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1>Mini Jeopardy</h1>
+      <div className="jeopardy-app-container">
+        <h1 className="title">Mini Jeopardy</h1>
         {
           this.state.displayCluePage ? 
             <CluePage 
