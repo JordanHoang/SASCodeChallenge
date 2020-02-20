@@ -10,7 +10,7 @@ class Jeopardy extends React.Component {
     super();
 
     this.state = {
-      clues: clues, // Collection, where each element in the array is a category Object that contains category data and a 
+      clues: clues, // Collection, where each element in the array is a category Object that contains category data and a questions
       displayCluePage: false // determines whether to show the game board, or to show the selected clue
     }
   }
@@ -32,12 +32,10 @@ class Jeopardy extends React.Component {
   }
 
   formatClues(clues) { // take all clues and choose 5 questions, one from each value category. And format for rest of components to use
-    console.log('FC', clues);
     return;
   }
 
   renderCluePage(selectedClue) {
-    console.log('this.selectedClue', selectedClue);
     this.setState({
       displayCluePage: true,
       selectedClue: selectedClue
@@ -53,7 +51,7 @@ class Jeopardy extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="jeopardy-app-container">
         <h1>Mini Jeopardy</h1>
         {
           this.state.displayCluePage ? 
