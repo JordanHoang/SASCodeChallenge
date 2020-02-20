@@ -1,6 +1,6 @@
 # Issues
 
-## jService / Ruby & Rails 
+### jService / Ruby & Rails 
 - I couldn't figure out how to get jService to run properly. I was at the `rails s` step, but ran into different issues with it attempting to build. 
 
 - If I were to have been able to succesfully get that working, I would have ran the `rake[12, 13]` command to retrieve seasons 12 AND 13 as it looked like Season 12 ran from 09-04-1995 to 07-19-1996, and Season 13 ran from 09-02-1996 to 07-18-1997 (according to http://j-archive.com/listseasons.php). So I wanted to make sure I got all the clues from 1996.
@@ -11,7 +11,7 @@
 
 # Next Steps
 
-## Transition from Mock Data to Live Data
+### Transition from Mock Data to Live Data
 
 - The data stored in my mock-data.js file are actual clues I retrieved from the jService API. And they are filtered on the science category, as well as the airdate of 1996.
 
@@ -21,6 +21,6 @@
 
 - And then like I mentioned in the jService issue, I would like to move this live data to the backend, and run a local API to retrieve that data.
 
-## Architected For Expansion
+### Architected For Expansion
 
 - I attempted to set up my project for future cases on expanding the board greater than one column.
